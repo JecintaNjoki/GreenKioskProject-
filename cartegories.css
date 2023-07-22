@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(17, 65, 17);
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+    color:white;
+    background-color:rgb(17, 65, 17);
+}
+.navbar img.logo {
+    height: 40px;
+}
+.navbar i {
+    font-size: 20px;
+}
+.navbar button {
+    padding: 5px 10px;
+    background-color:green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.vegetables{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+        }
+.fruits{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+.hea{
+    padding-left: 47%;
+}
+.categ{
+    padding-left: 42%;
+}
+.wate img{
+    height: 200px;
+    width: 200px;
+}
+.spin img{
+    height: 200px;
+    width: 200px;
+}
+.kale img{
+    height: 200px;
+    width: 200px;
+}
+.cauli img{
+    height: 200px;
+    width: 200px;
+}
+.avo img{
+    height: 200px;
+    width: 200px;
+}
+.pear img{
+    height: 200px;
+    width: 200px;
+}
+.melon img{
+    height: 200px;
+    width: 200px;
+}
+.cherry img{
+    height: 200px;
+    width: 200px;
+}
+.wate{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;  
+
+}
+.kale{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.spin{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cauli{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.avo{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.pear{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.melon{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cherry{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.button{
+    height:40px ;
+    width:160px ;
+    background:#70a570;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    transition:  .3s ease;
+}
+.button:hover{
+    background-color: #7ddb31;
+}  
+.end{
+    display: flex;
+    gap: 20%;
+    padding: 2%;
+    margin-top: 3%;
+    background-color: rgb(14, 73, 14);
+    color: white;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar button {
+        margin-top: 10px;
+    }
+    
+        .vegetables,
+        .fruits {
+            flex-direction: column;
+        }
+    
+        .wate,
+        .spin,
+        .kale,
+        .cauli,
+        .avo,
+        .pear,
+        .melon,
+        .cherry {
+            grid-template-columns: 1fr;
+        }
+    
+        .hea,
+        .categ {
+            padding-left: 0;
+            text-align: center;
+        }
+        .end {
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+            margin-top: 2%;
+            text-align: center;
+        }
+}
+
+
+
+ 
